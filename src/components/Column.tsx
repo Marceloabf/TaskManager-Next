@@ -6,6 +6,7 @@ type Props = {
   todos: Todo[]
   index: number
 }
+// eslint-disable-next-line no-unused-vars
 const idToColumnText: { [key in TypedColumn]: string } = {
   todo: 'Afazeres',
   done: 'Finalizado',
